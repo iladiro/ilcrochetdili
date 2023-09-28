@@ -1,0 +1,24 @@
+[
+    {
+        "id": "",
+        "details": {
+            "title": "Scarpette bimba rosa antico",
+            "description": "Fatte a mano",
+            "material": "cotone",
+            "imgsrc": "photo-1.jpg",
+            "size": "",
+            "href": ""
+        }
+    },
+    {
+        "id": "",
+        "details": {
+            "title": "Scarpette bimbo/bimba gialle",
+            "description": "Fatte a mano",
+            "material": "cotone",
+            "imgsrc": "photo-1.jpg",
+            "size": "",
+            "href": ""
+        }
+    }
+]
