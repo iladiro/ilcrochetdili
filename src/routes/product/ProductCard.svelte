@@ -13,14 +13,14 @@
 
 
 <div class="product__card mb-5">
-	<figure class="text-sm font-light">
-		<img src="./src/assets/photo/{details.imgsrc}" alt={details.title}>
-		<div class="my-3">
-			<a href={details.href} class="no-underline">{details.title}</a>
-		</div>
-		<div class="flex items-stretch gap-2">
-			<button type="button" on:click={openModal} class="p-2 bg-[#f8e5e6] rounded-sm text-[#454545] uppercase no-underline">Dettagli</button>
-			<a href={details.href} target="_blank" class="p-2 bg-[#f8e5e6] rounded-sm text-[#454545] uppercase no-underline">Etsy shop</a>
-		</div>
+	<figure class="text-sm font-light border-4 border-[#d0aeb0] bg-white p-4">
+		<img src="./src/assets/photo/{details.imgsrc}" alt={details.title}>		
 	</figure>
+	<div class="my-3">
+		<a href={details.href} class="no-underline">{details.title}</a>
+	</div>
+	<div class="flex items-stretch gap-2">
+		<button type="button" on:click={openModal} class="p-2 bg-[#f8e5e6] rounded-sm text-[#454545] uppercase no-underline">Dettagli</button>
+		<a href={details.href} target="_blank" class="p-2 bg-[#f8e5e6] rounded-sm text-[#454545] uppercase no-underline">Etsy shop</a>
+	</div>
 </div>
