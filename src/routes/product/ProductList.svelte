@@ -6,7 +6,7 @@
     import Modal, { bind } from 'svelte-simple-modal';
     import Popup from '../widgets/Popup.svelte';
 
-    const modal = writable(null);
+    const modal = writable();
 
     const openModal = (event: any) => {
         modal.set(bind(Popup, { content: event.detail }))
