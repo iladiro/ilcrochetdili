@@ -1,7 +1,14 @@
 <script lang="ts">
+	import { createEventDispatcher } from 'svelte';
 	import type { Product } from "./types/product.type";
 
 	export let details: Product;
+
+	const dispatch = createEventDispatcher();
+
+	function openModal() {
+		dispatch('openModal', details);
+	}
 </script>
 
 
@@ -12,7 +19,7 @@
 			<a href={details.href} class="no-underline">{details.title}</a>
 		</div>
 		<div class="flex items-stretch gap-2">
-			<button type="button" id="openModalBtn" class="p-2 bg-[#f8e5e6] rounded-sm text-[#454545] uppercase no-underline">Dettagli</button>
+			<button type="button" on:click={openModal} class="p-2 bg-[#f8e5e6] rounded-sm text-[#454545] uppercase no-underline">Dettagli</button>
 			<a href={details.href} target="_blank" class="p-2 bg-[#f8e5e6] rounded-sm text-[#454545] uppercase no-underline">Etsy shop</a>
 		</div>
 	</figure>

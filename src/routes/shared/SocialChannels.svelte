@@ -1,9 +1,9 @@
 <script>
-	import etsy from '$lib/icons/etsy.png';
-	import facebook from '$lib/icons/facebook.png';
-	import pinterest from '$lib/icons/pinterest.png';
-	import instagram from '$lib/icons/instagram.png';
-	import whatsapp from '$lib/icons/whatsapp.png';
+	import etsy from '../../assets/icons/etsy.png';
+	import facebook from '../../assets/icons/facebook.png';
+	import pinterest from '../../assets/icons/pinterest.png';
+	import instagram from '../../assets/icons/instagram.png';
+	import whatsapp from '../../assets/icons/whatsapp.png';
 </script>
 
 <ul class="flex items-center gap-2">
