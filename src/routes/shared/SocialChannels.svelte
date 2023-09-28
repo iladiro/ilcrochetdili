@@ -18,7 +18,7 @@
         </a>
     </li>
     <li>
-        <a href="whatsapp://send?abid=3474977880&text=Hello%2C%20World!" target="_blank">
+        <a href="https://api.whatsapp.com/send?phone=3474977880&amp;text=Ciao%20Ilaria!" target="_blank">
             <img src={whatsapp} alt="Whatsapp" width="50">
         </a>
     </li>
