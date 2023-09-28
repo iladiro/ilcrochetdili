@@ -1,15 +1,13 @@
 <script>
-	import Counter from './Counter.svelte';
-	import welcome from '$lib/images/svelte-welcome.webp';
-	import welcome_fallback from '$lib/images/svelte-welcome.png';
+	import cover from '../lib/images/cover.jpeg';
 </script>
 
 <svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<title>Il Crochet Di Ili</title>
+	<meta name="description" content="Uncinetto, lana, cotone e passione...Cuciti a mano con amore" />
 </svelte:head>
 
-<section>
+<!-- <section>
 	<h1>
 		<span class="welcome">
 			<picture>
@@ -26,34 +24,21 @@
 	</h2>
 
 	<Counter />
+</section> -->
+<section class="cover relative">
+    <h1 class="cover__title text-white text-4xl absolute top-[50%] left-[50%] z-20 translate-x-[-50%] translate-y-[-50%]">Welcome to my lovely world</h1>
+    <div class="relative z-10 w-full h-[400px] bg-cover bg-no-repeat bg-center" style="background-image: url({cover})"></div>
 </section>
 
-<style lang="postcss">
-	section {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex: 0.6;
-	}
+<section id="aboutme" class="bg-white p-10">
+    <h1 class="text-[#454545] mb-5 font-normal text-center">Mi chiamo Ilaria</h1>
+    <p class="text-center font-light text-lg text-[#454545]">
+        Amo il lavoro artigianale di qualsiasi genere, dalla lavorazione del legno, alla lavorazione con 
+        l'uncinetto.<br>Nella vita mi occupo di sviluppo web, ma il mio sogno sarebbe una baita in montagna, in mezzo alla natura, dove poter dare vita alle mie creazioni!</p>
+</section>
 
-	h1 {
-		width: 100%;
-	}
-
-	.welcome {
-		display: block;
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
-	}
-
-	.welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
-	}
+<style>
+	.cover__title {
+        font-family: 'Dancing Script', cursive;
+    }
 </style>

@@ -1,6 +1,6 @@
 <script>
 	import logo from '$lib/images/logo.png';
-	import SocialChannels from './SocialChannels.svelte';
+	import SocialChannels from '../shared/SocialChannels.svelte';
 </script>
 
 <header class="w-full p-4">
