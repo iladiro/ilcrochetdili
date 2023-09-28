@@ -4,7 +4,7 @@
 
     import { writable } from 'svelte/store';
     import Modal, { bind } from 'svelte-simple-modal';
-    import Popup from '../widgets/Popup.svelte';
+    import Popup from './Popup.svelte';
 
     const modal = writable(null);
 

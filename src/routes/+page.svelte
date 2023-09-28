@@ -35,7 +35,9 @@
     <h1 class="text-[#454545] mb-5 font-normal text-center">Mi chiamo Ilaria</h1>
     <p class="text-center font-light text-lg text-[#454545]">
         Amo il lavoro artigianale di qualsiasi genere, dalla lavorazione del legno, alla lavorazione con 
-        l'uncinetto.<br>Nella vita mi occupo di sviluppo web, ma il mio sogno sarebbe una baita in montagna, in mezzo alla natura, dove poter dare vita alle mie creazioni!</p>
+        l'uncinetto.<br>Nella vita mi occupo di sviluppo web, ma il mio sogno sarebbe una baita in montagna, in mezzo alla natura, dove poter dare vita alle mie creazioni!<br><br>
+		Qui sotto puoi trovare tutti i miei lavori, che troverai disponibili sul portale Etsy
+	</p>
 </section>
 
 <ProductList></ProductList>

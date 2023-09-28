@@ -1,5 +1,5 @@
 <script lang="ts">
-    import type { Product } from "../product/types/product.type";
+    import type { Product } from "./types/product.type";
 
     export let content: Product | Partial<Product>;
 </script>
