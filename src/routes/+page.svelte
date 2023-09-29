@@ -6,7 +6,6 @@
 
 <svelte:head>
 	<title>Il Crochet Di Ili</title>
-	<meta name="description" content="Uncinetto, lana, cotone e passione...Cuciti a mano con amore" />
 </svelte:head>
 <section class="cover relative">
     <h1 class="cover__title text-white text-4xl absolute top-[50%] left-[50%] z-20 translate-x-[-50%] translate-y-[-50%]">Welcome to my lovely world</h1>
@@ -16,7 +15,7 @@
 <section id="aboutme" class="bg-white p-10">
     <h2 class="text-[#ce8b8b] mb-5 text-6xl italic text-center prova">Chi sono</h2>
     <p class="text-center font-light text-xl text-[#454545]">
-        Piacere di conoscerti, io sono Ilaria! Amo il lavoro artigianale di qualsiasi genere, dalla lavorazione del legno, alla lavorazione con 
+        Piacere di conoscerti, mi chiamo Ilaria! Amo il lavoro artigianale di qualsiasi genere, dalla lavorazione del legno, alla lavorazione con 
         l'uncinetto.<br>Nella vita mi occupo di sviluppo web, ma il mio sogno sarebbe una baita in montagna, in mezzo alla natura, dove poter dare vita alle mie creazioni!<br><br>
 		
 	</p>
