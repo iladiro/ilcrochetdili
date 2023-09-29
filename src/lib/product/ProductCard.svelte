@@ -3,12 +3,12 @@
 	import { createEventDispatcher } from 'svelte';
 	import type { Product } from "./types/product.type";
 
-	export let details: Product;
+	export let product: Product;
 
 	const dispatch = createEventDispatcher();
 
 	function openModal() {
-		dispatch('openModal', details);
+		dispatch('openModal', product);
 	}
 </script>
 
@@ -16,15 +16,15 @@
 <div class="product__card mb-5">
 	<figure class="text-sm font-light border-4 border-[#d0aeb0] bg-white p-2">
 		<button on:click={openModal}>
-			<img src="./src/assets/photo/{details.imgsrc}" alt={details.title}>
+			<img src="./src/assets/photo/{product.details.imgsrc}" alt={product.details.title}>
 		</button>
 	</figure>
 	<div class="my-3">
-		<a href={details.href} class="no-underline">{details.title}</a>
+		<a href={product.details.href} class="no-underline">{product.details.title}</a>
 	</div>
 	<div class="flex items-stretch gap-2">
 		<button type="button" on:click={openModal} class="p-2 bg-[#f8e5e6] transition-all ease-in-out hover:shadow-md duration-300 shadow-sm rounded-sm text-[#454545] uppercase no-underline text-sm">Dettagli</button>
-		<a href={details.href} target="_blank" class="flex p-2 bg-[#f8e5e6] transition-all ease-in-out hover:shadow-md duration-300 shadow-sm rounded-sm text-[#454545] uppercase no-underline text-sm">
+		<a href={product.details.href} target="_blank" class="flex p-2 bg-[#f8e5e6] transition-all ease-in-out hover:shadow-md duration-300 shadow-sm rounded-sm text-[#454545] uppercase no-underline text-sm">
 			<img src={etsy} title="Vai al negozio su Etsy shop" alt="Etsy shop" width="30">
 		</a>
 	</div>

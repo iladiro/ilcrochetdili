@@ -9,7 +9,8 @@
     const modal = writable(null);
 
     const openModal = (event: any) => {
-        modal.set(bind(Popup, { content: event.detail }))
+        console.log(event)
+        modal.set(bind(Popup, { product: event.detail }))
     };
 
 </script>
@@ -17,7 +18,7 @@
 <section class="p-4" id="myProducts">
     <div class="grid grid-cols-5 gap-4 mb-10">
         {#each products as product, i}
-            <ProductCard details={product.details} on:openModal={openModal}></ProductCard>
+            <ProductCard product={product} on:openModal={openModal}></ProductCard>
         {/each}
     </div>
     <div class="text-center">
