@@ -1,9 +1,8 @@
 <script>
-	import Header from './layout/Header.svelte';
-	import './styles.css';
-	import "../app.css";
-	import Nav from './layout/Nav.svelte';
-	import Footer from './layout/Footer.svelte';
+	import Header from '../lib/layout/Header.svelte';
+	import '../assets/styles.css';
+	import Nav from '../lib/layout/Nav.svelte';
+	import Footer from '../lib/layout/Footer.svelte';
 </script>
 
 <div class="app">
