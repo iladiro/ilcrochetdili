@@ -1,6 +1,6 @@
 <script>
-	import cover from '../assets/images/cover.jpeg';
-    import arrowDown from '../assets/icons/arrow.png';
+	import cover from '$images/cover.jpeg';
+    import arrowDown from '$icons/arrow.png';
 	import ProductList from '../lib/product/ProductList.svelte';
 </script>
 
@@ -30,6 +30,7 @@
     </div>
     <ProductList></ProductList>
 </section>
+<section id="contacts"></section>
 
 <style>
 	.cover__title {
