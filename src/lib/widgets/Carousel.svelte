@@ -13,7 +13,7 @@
   </script>
 
 {#if browser && photoList}
-<Carousel>    
+<Carousel dots={false}>    
     <button let:showPrevPage slot="prev" on:click={showPrevPage} class="custom-arrow custom-arrow-prev w-5 mr-5 text-[#a9a9a9]">
         <IoIosArrowBack />
     </button>

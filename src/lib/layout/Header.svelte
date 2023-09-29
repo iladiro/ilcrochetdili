@@ -6,7 +6,7 @@
 <header class="w-full p-4">
     <div class="flex justify-center relative">
         <a href="https://kit.svelte.dev">
-            <img src={logo} alt="IlCrochetDiIli" width="200" />
+            <img src={logo} alt="IlCrochetDiIli" width="250" />
         </a>
         <div class="absolute top-[50%] right-0 translate-y-[-50%]">
             <SocialChannels></SocialChannels>
