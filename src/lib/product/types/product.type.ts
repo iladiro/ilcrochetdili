@@ -1,7 +1,7 @@
 export type Product = {
     id: string;
     details: ProductDetails;
-    carousel: string[]
+    carousel: string[];
 }
 
 export type ProductDetails = {
