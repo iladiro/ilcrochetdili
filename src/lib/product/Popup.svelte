@@ -8,7 +8,7 @@
 {#if product}
 <div class="p-5">
     <Carousel photoList={product.carousel}></Carousel>
-    <table class="text-[#454545] text-sm border-collapse table-fixed w-full mt-5">
+    <table class="text-[#454545] text-lg border-collapse table-fixed w-full mt-5">
         <tbody class="bg-white dark:bg-slate-800">
             <tr>
                 <td width="100" class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400 font-bold">Nome:</td>

@@ -14,7 +14,7 @@
 
 
 <div class="product__card mb-5">
-	<figure class="text-sm font-light border-4 border-[#d0aeb0] bg-white p-2">
+	<figure class="text-sm font-light border-4 border-[#d0aeb0] bg-white p-2 shadow-sm hover:shadow-md transition-all ease-in-out duration-300">
 		<button on:click={openModal}>
 			<img src="./src/assets/photo/{product.details.imgsrc}" alt={product.details.title}>
 		</button>

@@ -9,27 +9,27 @@
 <ul class="flex items-center gap-2">
     <li>
         <a href="https://www.instagram.com/ilcrochetdili/" target="_blank">
-            <img src={instagram} alt="Instagram" width="50">
+            <img src={instagram} alt="Instagram" width="45">
         </a>
     </li>
     <li>
         <a href="https://www.pinterest.it/IlCrochetDili/" target="_blank">
-            <img src={pinterest} alt="Pinterest" width="50">
+            <img src={pinterest} alt="Pinterest" width="45">
         </a>
     </li>
     <li>
         <a href="https://api.whatsapp.com/send?phone=3474977880&amp;text=Ciao%20Ilaria!" target="_blank">
-            <img src={whatsapp} alt="Whatsapp" width="50">
+            <img src={whatsapp} alt="Whatsapp" width="45">
         </a>
     </li>
     <li>
         <a href="https://www.facebook.com/ilcrochetdili" target="_blank">
-            <img src={facebook} alt="Facebook" width="50">
+            <img src={facebook} alt="Facebook" width="45">
         </a>
     </li>
     <li>
         <a href="https://www.etsy.com/it/shop/IlCrochetDili" target="_blank">
-            <img src={etsy} alt="Etsy" width="50">
+            <img src={etsy} alt="Etsy" width="45">
         </a>
     </li>
 </ul>
