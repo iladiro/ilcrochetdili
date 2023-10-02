@@ -17,11 +17,11 @@
             <img src={pinterest} alt="Pinterest" width="45">
         </a>
     </li>
-    <li>
+    <!-- <li>
         <a href="https://api.whatsapp.com/send?phone=3474977880&amp;text=Ciao%20Ilaria!" target="_blank">
             <img src={whatsapp} alt="Whatsapp" width="45">
         </a>
-    </li>
+    </li> -->
     <li>
         <a href="https://www.facebook.com/ilcrochetdili" target="_blank">
             <img src={facebook} alt="Facebook" width="45">

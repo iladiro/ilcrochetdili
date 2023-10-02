@@ -37,10 +37,10 @@
     </div>
     <div class="flex text-center mt-10 gap-4 items-center justify-center">
         <a href={product.details?.href} class="p-2 bg-[#f8e5e6] transition-all ease-in-out hover:shadow-md duration-300 shadow-sm rounded-sm text-[#454545] uppercase no-underline text-sm">Vai al negozio</a>
-        <span class="uppercase">oppure</span>
+        <!-- <span class="uppercase">oppure</span>
         <a href="https://api.whatsapp.com/send?phone=3474977880&amp;text=Ciao%20Ilaria!" target="_blank" class="inline-block p-2 bg-[#f8e5e6] transition-all ease-in-out hover:shadow-md duration-300 shadow-sm rounded-sm text-[#454545] uppercase no-underline text-sm">
             Contattami su Whatsapp
-        </a>
+        </a> -->
     </div>  
 </div>
 {/if}
