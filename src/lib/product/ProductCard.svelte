@@ -13,14 +13,16 @@
 </script>
 
 
-<div class="product__card mb-5">
-	<figure class="text-sm font-light border-4 border-[#d0aeb0] bg-white p-2 shadow-sm hover:shadow-md transition-all ease-in-out duration-300">
-		<button on:click={openModal}>
-			<img src="/photo/{product.details.imgsrc}" alt={product.details.title}>
-		</button>
-	</figure>
+<div class="product__card mb-5 h-full relative flex justify-between flex-col">
 	<div class="my-3">
-		<a href={product.details.href} class="no-underline">{product.details.title}</a>
+		<figure class="text-sm mb-3 font-light border-4 border-[#d0aeb0] bg-white p-2 shadow-sm hover:shadow-md transition-all ease-in-out duration-300">
+			<button on:click={openModal}>
+				<img src="/photo/{product.details.imgsrc}" alt={product.details.title}>
+			</button>
+		</figure>
+		<div>
+			<a href={product.details.href} class="no-underline">{product.details.title}</a>
+		</div>
 	</div>
 	<div class="flex items-stretch gap-2">
 		<button type="button" on:click={openModal} class="p-2 bg-[#f8e5e6] transition-all ease-in-out hover:shadow-md duration-300 shadow-sm rounded-sm text-[#454545] uppercase no-underline text-sm">Dettagli</button>

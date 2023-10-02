@@ -26,7 +26,7 @@
     {
         "id": "",
         "details": {
-            "title": "Eleganti scarponcini bassi, rosa bimba, con fiocchetto",
+            "title": "Eleganti scarponcini bassi all'uncinetto, rosa bimba, con fiocchetto",
             "description": "L'eleganza non è acqua. 100% cotone con bordo arricciato e elasticizzato",
             "material": "100% cotone",
             "imgsrc": "photo-3.jpg",
@@ -38,7 +38,7 @@
     {
         "id": "",
         "details": {
-            "title": "Eleganti scarponcini bassi, neri con perle rosa",
+            "title": "Eleganti scarponcini bassi all'uncinetto, neri con perle rosa",
             "description": "Scarponcini con bordo arricciato e elasticizzato. Figurone assicurato",
             "material": "Acrilico",
             "imgsrc": "photo-4.jpg",
@@ -50,9 +50,9 @@
     {
         "id": "",
         "details": {
-            "title": "Scarpe da ginnastica azzurre con lacci in cotone gialli",
+            "title": "Scarpe da ginnastica all'uncinetto azzurre con lacci in cotone gialli",
             "description": "Per ometti alla moda, scarpine da ginastica azzurre fatte a mano",
-            "material": "100% otone",
+            "material": "100% cotone",
             "imgsrc": "photo-5.jpg",
             "size": "9 cm",
             "href": "https://www.etsy.com/it/shop/IlCrochetDili"
@@ -62,11 +62,11 @@
     {
         "id": "",
         "details": {
-            "title": "Scarpette bimba rosa antico",
-            "description": "Fatte a mano",
-            "material": "cotone",
+            "title": "Stivaletti azzuri all'uncinetto simil Timberland",
+            "description": "Color azzuro e nocciola con lacci di cotone bianco",
+            "material": "100% cotone",
             "imgsrc": "photo-6.jpg",
-            "size": "",
+            "size": "8.5 cm",
             "href": "https://www.etsy.com/it/shop/IlCrochetDili"
         },
         "carousel": ["photo-6-1.jpg", "photo-6-2.jpg"]
@@ -74,11 +74,11 @@
     {
         "id": "",
         "details": {
-            "title": "Adorabili All start blu e viola",
+            "title": "Adorabili All start all'uncinetto blu e viola",
             "description": "Fatte a mano",
-            "material": "cotone",
+            "material": "100% cotone",
             "imgsrc": "photo-7.jpg",
-            "size": "",
+            "size": "8 cm",
             "href": "https://www.etsy.com/it/shop/IlCrochetDili"
         },
         "carousel": ["photo-7-1.jpg", "photo-7-2.jpg"]
@@ -87,10 +87,10 @@
         "id": "",
         "details": {
             "title": "L'eleganza è un dono",
-            "description": "Fatte a mano",
-            "material": "cotone",
+            "description": "Sandali rosa e bianco con piccola rosellina e bottone di perla",
+            "material": "100% cotone",
             "imgsrc": "photo-8.jpg",
-            "size": "",
+            "size": "10 cm",
             "href": "https://www.etsy.com/it/shop/IlCrochetDili"
         },
         "carousel": ["photo-8-1.jpg", "photo-8-2.jpg", "photo-8-3.jpg"]
@@ -98,11 +98,11 @@
     {
         "id": "",
         "details": {
-            "title": "Scarpette bimba rosa antico",
+            "title": "Stivali bianchi all'uncinetto con fiocchetti laterali",
             "description": "Fatte a mano",
-            "material": "cotone",
+            "material": "100% cotone",
             "imgsrc": "photo-9.jpg",
-            "size": "",
+            "size": "8.5 cm",
             "href": "https://www.etsy.com/it/shop/IlCrochetDili"
         },
         "carousel": ["photo-9-1.jpg", "photo-9-2.jpg", "photo-9-3.jpg"]
@@ -110,11 +110,11 @@
     {
         "id": "",
         "details": {
-            "title": "Scarpette bimba rosa antico",
+            "title": "Stivali all'uncinetto neri con brillantini",
             "description": "Fatte a mano",
-            "material": "cotone",
+            "material": "100% cotone",
             "imgsrc": "photo-10.jpg",
-            "size": "",
+            "size": "8 cm",
             "href": "https://www.etsy.com/it/shop/IlCrochetDili"
         },
         "carousel": ["photo-10-1.jpg", "photo-10-2.jpg", "photo-10-3.jpg"]
@@ -122,11 +122,11 @@
     {
         "id": "",
         "details": {
-            "title": "Scarpette bimba rosa antico",
+            "title": "Stivaletti bassi all'uncinetto, blu con laccetto rosa, frangie e suola bianca",
             "description": "Fatte a mano",
-            "material": "cotone",
+            "material": "100% cotone",
             "imgsrc": "photo-11.jpg",
-            "size": "",
+            "size": "8.5 cm",
             "href": "https://www.etsy.com/it/shop/IlCrochetDili"
         },
         "carousel": ["photo-11-1.jpg", "photo-11-2.jpg"]
@@ -134,11 +134,11 @@
     {
         "id": "",
         "details": {
-            "title": "Scarpette bimbo/bimba gialle",
+            "title": "Sandali all'uncinetto bimbo/bimba gialli con bottone in legno",
             "description": "Fatte a mano",
-            "material": "cotone",
+            "material": "100% cotone",
             "imgsrc": "photo-12.jpg",
-            "size": "",
+            "size": "10.5 cm",
             "href": "https://www.etsy.com/it/shop/IlCrochetDili"
         },
         "carousel": ["photo-12-1.jpg", "photo-12-2.jpg", "photo-12-3.jpg"]
@@ -146,11 +146,11 @@
     {
         "id": "",
         "details": {
-            "title": "Scarponcini bimba rosa",
+            "title": "Stivaletti bimba all'uncinetto rosa e bianco",
             "description": "Fatte a mano",
-            "material": "cotone",
+            "material": "100% cotone",
             "imgsrc": "photo-13.png",
-            "size": "",
+            "size": "9.5 / 10 cm",
             "href": "https://www.etsy.com/it/shop/IlCrochetDili"
         },
         "carousel": ["photo-13-1.png", "photo-13-2.png", "photo-13-3.png", "photo-13-4.png"]
@@ -158,7 +158,7 @@
     {
         "id": "",
         "details": {
-            "title": "Scarpette bimbo/bimba gialle",
+            "title": "Sandaletti bimba all'uncinetto rosa con suola bianca e bottone laterale bianco",
             "description": "Fatte a mano",
             "material": "cotone",
             "imgsrc": "photo-14.jpg",
@@ -170,11 +170,11 @@
     {
         "id": "",
         "details": {
-            "title": "Scarpette bimbo/bimba gialle",
+            "title": "Stivali all'uncinetto UGG style bianchi con suola rosa",
             "description": "Fatte a mano",
-            "material": "cotone",
+            "material": "100% cotone",
             "imgsrc": "photo-15.jpg",
-            "size": "",
+            "size": "9 cm",
             "href": "https://www.etsy.com/it/shop/IlCrochetDili"
         },
         "carousel": ["photo-15-1.jpg", "photo-15-2.jpg", "photo-15-3.jpg", "photo-15-4.jpg", "photo-15-5.jpg"]
@@ -182,11 +182,11 @@
     {
         "id": "",
         "details": {
-            "title": "Scarpette bimbo/bimba gialle",
+            "title": "Stivaletti bassi all'ucinetto, lilla con frangie, lacci azzurro acqua e suola nera",
             "description": "Fatte a mano",
-            "material": "cotone",
+            "material": "100% cotone",
             "imgsrc": "photo-16.jpg",
-            "size": "",
+            "size": "9.5 cm",
             "href": "https://www.etsy.com/it/shop/IlCrochetDili"
         },
         "carousel": ["photo-16-1.jpg", "photo-16-2.jpg", "photo-16-3.jpg", "photo-16-4.jpg"]
