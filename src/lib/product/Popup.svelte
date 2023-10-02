@@ -39,10 +39,10 @@
                 <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-black">&euro; 10 - 12 **</td>
             </tr>
             <tr>
-                <td colspan="2" class="py-4 text-sm">* Tutte le scarpette sono lavorate a mano. Se non ci fosse più disponibile della scarpetta che desiderate, potete contattarmi su tutti i canali social che ho indicato nel sito. Grazie mille!</td>
+                <td colspan="2" class="py-4 text-sm">* Tutte le scarpette sono lavorate a mano. Se non ci fosse più disponibilità della scarpetta che desiderate, potete contattarmi su tutti i canali social che ho indicato nel sito. Grazie mille!</td>
             </tr>
             <tr>
-                <td colspan="2" class="pb-4 text-sm">** La spedizione verrà effettuata con il corriete TNT o UPS al costo di 10&euro; sulla penisola e 12&euro; sulle isole</td>
+                <td colspan="2" class="pb-4 text-sm">** La spedizione verrà effettuata con il corriere TNT o UPS al costo di 10&euro; sulla penisola e 12&euro; sulle isole</td>
             </tr>
         </tbody>
     </table>  
