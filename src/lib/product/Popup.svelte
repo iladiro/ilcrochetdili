@@ -1,4 +1,5 @@
 <script lang="ts">
+    import whatsapp from '$icons/whatsapp.png';
     import Carousel from '../widgets/Carousel.svelte';
     import type { Product } from "./types/product.type";
 
@@ -34,8 +35,12 @@
             ** La spedizione verrà effettuata con il corriere TNT o UPS al costo di 10&euro; sulla penisola e 12&euro; sulle isole
         </p> -->
     </div>
-    <div class="text-center mt-10">
+    <div class="flex text-center mt-10 gap-4 items-center justify-center">
         <a href={product.details?.href} class="p-2 bg-[#f8e5e6] transition-all ease-in-out hover:shadow-md duration-300 shadow-sm rounded-sm text-[#454545] uppercase no-underline text-sm">Vai al negozio</a>
+        <span class="uppercase">oppure</span>
+        <a href="https://api.whatsapp.com/send?phone=3474977880&amp;text=Ciao%20Ilaria!" target="_blank" class="inline-block p-2 bg-[#f8e5e6] transition-all ease-in-out hover:shadow-md duration-300 shadow-sm rounded-sm text-[#454545] uppercase no-underline text-sm">
+            Contattami su Whatsapp
+        </a>
     </div>  
 </div>
 {/if}
