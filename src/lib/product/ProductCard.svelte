@@ -32,7 +32,7 @@
 			</a>
 		</div>
 		<div>
-			<p class="product__card-price text-lg"><strong>&euro; {product.details.price}</strong></p>
+			<!-- <p class="product__card-price text-lg"><strong>&euro; {product.details.price}</strong></p> -->
 		</div>
 	</div>
 </div>

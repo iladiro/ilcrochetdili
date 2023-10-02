@@ -30,7 +30,7 @@
                 <td width="160"  class="border-b border-slate-100 dark:border-slate-700 p-4 text-black font-bold">Disponibilità:</td>
                 <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-black">{product.details?.available} pezz{#if product.details?.available === 1}o {:else}i{/if} *</td>
             </tr>
-            <tr>
+            <!-- <tr>
                 <td width="160"  class="border-b border-slate-100 dark:border-slate-700 p-4 text-black font-bold">Prezzo:</td>
                 <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-black">&euro; {product.details?.price}</td>
             </tr>
@@ -43,7 +43,7 @@
             </tr>
             <tr>
                 <td colspan="2" class="pb-4 text-sm">** La spedizione verrà effettuata con il corriere TNT o UPS al costo di 10&euro; sulla penisola e 12&euro; sulle isole</td>
-            </tr>
+            </tr> -->
         </tbody>
     </table>  
     <div class="text-center mt-10">
