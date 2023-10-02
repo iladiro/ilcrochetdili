@@ -16,7 +16,7 @@
 </script>
 
 <div class="p-4">
-    <div class="md:grid grid-cols-5 gap-4 mb-10 items-stretch">
+    <div class="md:grid grid-cols-5 gap-5 mb-10 items-stretch">
         {#each products as product, i}
             <ProductCard product={product} on:openModal={openModal}></ProductCard>
         {/each}

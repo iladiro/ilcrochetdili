@@ -11,4 +11,6 @@ export type ProductDetails = {
     imgsrc: string;
     size: string;
     href: string;
+    price: string;
+    available: number;
 }
