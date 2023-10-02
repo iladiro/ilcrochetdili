@@ -22,17 +22,17 @@
             <div class="text-black col-span-3 mb-4 md:mb-0">{product.details?.material}</div>
             <div class="text-black font-bold">Disponibilità</div>
             <div class="text-black col-span-3 mb-4 md:mb-0">{product.details?.available}</div>
-            <div class="text-black font-bold">Prezzo</div>
+            <!-- <div class="text-black font-bold">Prezzo</div>
             <div class="text-black col-span-3 mb-4 md:mb-0">&euro; {product.details?.price}</div>
             <div class="text-black font-bold">Spedizione</div>
-            <div class="text-black col-span-3 mb-4 md:mb-0">&euro; 10 - 12 **</div>
+            <div class="text-black col-span-3 mb-4 md:mb-0">&euro; 10 - 12 **</div> -->
         </div>
-        <p class="mb-4 text-sm">
+        <!-- <p class="mb-4 text-sm">
             * Tutte le scarpette sono lavorate a mano. Se non ci fosse più disponibilità della scarpetta che desiderate, potete contattarmi su tutti i canali social che ho indicato nel sito. Grazie mille!
         </p>
         <p class="mb-4 text-sm">
             ** La spedizione verrà effettuata con il corriere TNT o UPS al costo di 10&euro; sulla penisola e 12&euro; sulle isole
-        </p>
+        </p> -->
     </div>
     <div class="text-center mt-10">
         <a href={product.details?.href} class="p-2 bg-[#f8e5e6] transition-all ease-in-out hover:shadow-md duration-300 shadow-sm rounded-sm text-[#454545] uppercase no-underline text-sm">Vai al negozio</a>
