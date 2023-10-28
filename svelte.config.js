@@ -13,6 +13,7 @@ const config = {
 		// See https://kit.svelte.dev/docs/adapters for more information about adapters.
 		adapter: adapter(),
 		alias: {
+			$pdf: "src/assets/pdf",
 			$images: "src/assets/images",
 			$icons: "src/assets/icons"
 		}

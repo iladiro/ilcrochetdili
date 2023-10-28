@@ -2,6 +2,7 @@
 	import cover from '$images/cover.jpeg';
     import arrowDown from '$icons/arrow.png';
 	import ProductList from '../lib/product/ProductList.svelte';
+	import TutorialList from '$lib/tutorials/TutorialList.svelte';
 </script>
 
 <svelte:head>
@@ -30,6 +31,14 @@
     <ProductList></ProductList>
 </section>
 <section id="contacts"></section>
+
+<section class="px-5 py-8 bg-white" id="myTutorials">
+    <h2 class="text-[#ce8b8b] mb-5 text-6xl italic text-center">Tutorials</h2>
+    <div class="flex justify-center p-5">
+        <img src={arrowDown} alt="" width="100">
+    </div>
+    <TutorialList></TutorialList>
+</section>
 
 <style>
 	.cover__title {
