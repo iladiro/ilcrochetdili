@@ -21,9 +21,9 @@
             <ProductCard product={product} on:openModal={openModal}></ProductCard>
         {/each}
     </div>
-    <div class="text-center">
+    <!-- <div class="text-center">
         <a href="https://www.etsy.com/it/shop/IlCrochetDili" target="_blank" class="text-xl font-normal p-4 px-8 transition-all ease-in-out hover:shadow-md duration-300 shadow-sm bg-[#ce8b8b] rounded-sm text-[#454545] no-underline">Vai al negozio</a>
-    </div>
+    </div> -->
     <Modal 
         show={$modal}
         classBg="fixed top-0 left-0 w-screen h-screen flex flex-col justify-center bg-orange-100/[.9]"

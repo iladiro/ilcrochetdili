@@ -27,9 +27,9 @@
             <img src={facebook} alt="Facebook" width="45">
         </a>
     </li>
-    <li>
+    <!-- <li>
         <a href="https://www.etsy.com/it/shop/IlCrochetDili" target="_blank">
             <img src={etsy} alt="Etsy" width="45">
         </a>
-    </li>
+    </li> -->
 </ul>
