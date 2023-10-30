@@ -3,6 +3,7 @@
     import arrowDown from '$icons/arrow.png';
 	import ProductList from '../lib/product/ProductList.svelte';
 	import TutorialList from '$lib/tutorials/TutorialList.svelte';
+    import SocialChannels from '$lib/shared/SocialChannels.svelte';
 </script>
 
 <svelte:head>
@@ -17,14 +18,17 @@
     <h2 class="text-[#ce8b8b] mb-5 text-6xl italic text-center prova">Chi sono</h2>
     <p class="text-center font-light text-xl text-[#454545]">
         Piacere di conoscerti, mi chiamo Ilaria! Amo il lavoro artigianale di qualsiasi genere, dalla lavorazione del legno, alla lavorazione con 
-        l'uncinetto.<br>Nella vita mi occupo di sviluppo web, ma il mio sogno sarebbe una baita in montagna, in mezzo alla natura, dove poter dare vita alle mie creazioni!<br><br>
-		
+        l'uncinetto.<br>Nella vita mi occupo di sviluppo web, ma il mio sogno sarebbe una baita in montagna, in mezzo alla natura, dove poter dare vita alle mie creazioni!<br><br>		
 	</p>
 </section>
 
 <section class="px-5 py-8" id="myProducts">
     <h2 class="text-[#ce8b8b] mb-5 text-6xl italic text-center">I miei lavori</h2>
-    <p class="text-center text-[#454545] text-xl">Qui sotto puoi trovare tutti i miei lavori. Li troverai disponibili e acquistabili sul portale Etsy.</p>
+    <p class="text-center text-[#454545] text-xl">
+        Qui sotto puoi trovare tutti i miei lavori. Contattami sui miei canali socials.
+        <!-- Li troverai disponibili e acquistabili sul portale Etsy -->
+        <SocialChannels></SocialChannels>
+    </p>
     <div class="flex justify-center p-5">
         <img src={arrowDown} alt="" width="100">
     </div>
