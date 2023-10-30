@@ -26,9 +26,11 @@
     <h2 class="text-[#ce8b8b] mb-5 text-6xl italic text-center">I miei lavori</h2>
     <p class="text-center text-[#454545] text-xl">
         Qui sotto puoi trovare tutti i miei lavori. Contattami sui miei canali socials.
-        <!-- Li troverai disponibili e acquistabili sul portale Etsy -->
-        <SocialChannels></SocialChannels>
+        <!-- Li troverai disponibili e acquistabili sul portale Etsy -->        
     </p>
+    <div class="flex justify-center mt-5">
+        <SocialChannels></SocialChannels>
+    </div>
     <div class="flex justify-center p-5">
         <img src={arrowDown} alt="" width="100">
     </div>
