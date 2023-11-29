@@ -3,7 +3,7 @@
         "id": "",
         "details": {
             "title": "Sandaletti all'uncinetto rosa con bottone in legno",
-            "description": "Adorabili scarpette rosa cipria fatte a mano. Suoletta inclusa.",
+            "description": "Adorabili scarpette rosa cipria fatte a mano. ",
             "material": "100% cotone",
             "imgsrc": "photo-1.jpg",
             "size": "10 cm",
@@ -17,7 +17,7 @@
         "id": "",
         "details": {
             "title": "Scarpette da ometto all'uncinetto con bottoni in legno su entrambi i lati",
-            "description": "100% cotone verde e blu con suola bianca fatte a mano. Suoletta inclusa.",
+            "description": "100% cotone verde e blu con suola bianca fatte a mano. ",
             "material": "100% cotone",
             "imgsrc": "photo-2.jpg",
             "size": "9 cm",
@@ -31,7 +31,7 @@
         "id": "",
         "details": {
             "title": "Eleganti scarponcini bassi all'uncinetto, rosa bimba, con fiocchetto",
-            "description": "100% cotone con bordo arricciato ed elasticizzato. Suoletta inclusa.",
+            "description": "100% cotone con bordo arricciato ed elasticizzato. ",
             "material": "100% cotone",
             "imgsrc": "photo-3.jpg",
             "size": "11 cm",
@@ -45,7 +45,7 @@
         "id": "",
         "details": {
             "title": "Eleganti scarponcini bassi all'uncinetto, neri con perle rosa",
-            "description": "Scarponcini con bordo arricciato e elasticizzato. Suoletta inclusa.",
+            "description": "Scarponcini con bordo arricciato e elasticizzato. ",
             "material": "Acrilico",
             "imgsrc": "photo-4.jpg",
             "size": "11 cm",
@@ -59,7 +59,7 @@
         "id": "",
         "details": {
             "title": "Scarpe da ginnastica all'uncinetto azzurre con lacci in cotone gialli",
-            "description": "Per ometti alla moda, scarpine da ginastica azzurre fatte a mano. Suoletta inclusa.",
+            "description": "Per ometti alla moda, scarpine da ginastica azzurre fatte a mano. ",
             "material": "100% cotone",
             "imgsrc": "photo-5.jpg",
             "size": "9 cm",
@@ -73,7 +73,7 @@
         "id": "",
         "details": {
             "title": "Stivaletti azzuri all'uncinetto simil Timberland",
-            "description": "Color azzuro e nocciola con lacci di cotone bianco. Suoletta inclusa.",
+            "description": "Color azzuro e nocciola con lacci di cotone bianco. ",
             "material": "100% cotone",
             "imgsrc": "photo-6.jpg",
             "size": "8.5 cm",
@@ -87,7 +87,7 @@
         "id": "",
         "details": {
             "title": "Adorabili All start all'uncinetto blu e viola",
-            "description": "Fatte a mano. Suoletta inclusa.",
+            "description": "Fatte a mano. ",
             "material": "100% cotone",
             "imgsrc": "photo-7.jpg",
             "size": "8 cm",
@@ -101,7 +101,7 @@
         "id": "",
         "details": {
             "title": "L'eleganza è un dono",
-            "description": "Sandali rosa e bianco con piccola rosellina e bottone di perla. Suoletta inclusa.",
+            "description": "Sandali rosa e bianco con piccola rosellina e bottone di perla. ",
             "material": "100% cotone",
             "imgsrc": "photo-8.jpg",
             "size": "10 cm",
@@ -115,7 +115,7 @@
         "id": "",
         "details": {
             "title": "Stivali bianchi all'uncinetto con fiocchetti laterali",
-            "description": "Fatte a mano. Suoletta inclusa.",
+            "description": "Fatte a mano. ",
             "material": "100% cotone",
             "imgsrc": "photo-9.jpg",
             "size": "8.5 cm",
@@ -129,7 +129,7 @@
         "id": "",
         "details": {
             "title": "Stivali all'uncinetto neri con brillantini",
-            "description": "Fatte a mano. Suoletta inclusa.",
+            "description": "Fatte a mano. ",
             "material": "100% cotone",
             "imgsrc": "photo-10.jpg",
             "size": "8 cm",
@@ -143,7 +143,7 @@
         "id": "",
         "details": {
             "title": "Stivaletti bassi all'uncinetto, blu con laccetto rosa, frangie e suola bianca",
-            "description": "Fatte a mano. Suoletta inclusa.",
+            "description": "Fatte a mano. ",
             "material": "100% cotone",
             "imgsrc": "photo-11.jpg",
             "size": "8.5 cm",
@@ -171,7 +171,7 @@
         "id": "",
         "details": {
             "title": "Stivaletti bimba all'uncinetto rosa e bianco",
-            "description": "Fatte a mano. Suoletta inclusa.",
+            "description": "Fatte a mano. ",
             "material": "100% cotone",
             "imgsrc": "photo-13.png",
             "size": "9.5 / 10 cm",
@@ -199,7 +199,7 @@
         "id": "",
         "details": {
             "title": "Stivali all'uncinetto UGG style bianchi con suola rosa",
-            "description": "Fatte a mano. Suoletta inclusa.",
+            "description": "Fatte a mano. ",
             "material": "100% cotone",
             "imgsrc": "photo-15.jpg",
             "size": "9 cm",
@@ -213,7 +213,7 @@
         "id": "",
         "details": {
             "title": "Stivaletti bassi all'ucinetto, lilla con frangie, lacci azzurro acqua e suola nera",
-            "description": "Fatte a mano. Suoletta inclusa.",
+            "description": "Fatte a mano. ",
             "material": "100% cotone",
             "imgsrc": "photo-16.jpg",
             "size": "9.5 cm",
@@ -222,5 +222,19 @@
             "available": 1
         },
         "carousel": ["photo-16-1.jpg", "photo-16-2.jpg", "photo-16-3.jpg", "photo-16-4.jpg"]
+    },
+    {
+        "id": "",
+        "details": {
+            "title": "Eleganti scarponcini bassi all'uncinetto, bianchi con fiocchetto verde",
+            "description": "Fatte a mano. ",
+            "material": "100% cotone",
+            "imgsrc": "photo-17.jpg",
+            "size": "10 cm",
+            "href": "https://www.etsy.com/it/shop/IlCrochetDili",
+            "price": "25,00",
+            "available": 1
+        },
+        "carousel": ["photo-17-1.jpg", "photo-17-2.jpg"]
     }
 ]
