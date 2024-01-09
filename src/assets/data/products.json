@@ -250,5 +250,19 @@
             "available": 1
         },
         "carousel": ["photo-18-1.jpg", "photo-18-2.jpg", "photo-18-3.jpg", "photo-18-4.jpg"]
+    },
+    {
+        "id": "",
+        "details": {
+            "title": "All star gialle e verdi",
+            "description": "Fatte a mano. ",
+            "material": "100% cotone",
+            "imgsrc": "photo-19.jpg",
+            "size": "9.5 cm",
+            "href": "https://www.etsy.com/it/shop/IlCrochetDili",
+            "price": "25,00",
+            "available": 1
+        },
+        "carousel": ["photo-19-1.jpg", "photo-19-2.jpg", "photo-19-3.jpg"]
     }
 ]
