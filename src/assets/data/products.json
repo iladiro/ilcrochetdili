@@ -236,5 +236,19 @@
             "available": 1
         },
         "carousel": ["photo-17-1.jpg", "photo-17-2.jpg", "photo-17-3.jpg"]
+    },
+    {
+        "id": "",
+        "details": {
+            "title": "All star azzurrre",
+            "description": "Fatte a mano. ",
+            "material": "100% cotone",
+            "imgsrc": "photo-18.jpg",
+            "size": "10 cm",
+            "href": "https://www.etsy.com/it/shop/IlCrochetDili",
+            "price": "25,00",
+            "available": 1
+        },
+        "carousel": ["photo-18-1.jpg", "photo-18-2.jpg", "photo-18-3.jpg", "photo-18-4.jpg"]
     }
 ]
