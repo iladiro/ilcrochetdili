@@ -264,5 +264,19 @@
             "available": 1
         },
         "carousel": ["photo-19-1.jpg", "photo-19-2.jpg", "photo-19-3.jpg"]
+    },
+    {
+        "id": "",
+        "details": {
+            "title": "All star blue",
+            "description": "Fatte a mano.",
+            "material": "100% cotone",
+            "imgsrc": "photo-20.jpg",
+            "size": "10 cm",
+            "href": "https://www.etsy.com/it/shop/IlCrochetDili",
+            "price": "25,00",
+            "available": 1
+        },
+        "carousel": ["photo-20-1.jpg", "photo-20-2.jpg", "photo-20-3.jpg"]
     }
 ]
