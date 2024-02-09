@@ -278,5 +278,19 @@
             "available": 1
         },
         "carousel": ["photo-20-1.jpg", "photo-20-2.jpg", "photo-20-3.jpg"]
+    },
+    {
+        "id": "",
+        "details": {
+            "title": "All star alte nere",
+            "description": "Fatte a mano.",
+            "material": "100% cotone",
+            "imgsrc": "photo-21.jpg",
+            "size": "10 cm",
+            "href": "https://www.etsy.com/it/shop/IlCrochetDili",
+            "price": "25,00",
+            "available": 1
+        },
+        "carousel": ["photo-21-14.jpg", "photo-21-4.jpg", "photo-21-2.jpg", "photo-21-3.jpg", "photo-21-6.jpg", "photo-21-7.jpg", "photo-21-13.jpg"]
     }
 ]
