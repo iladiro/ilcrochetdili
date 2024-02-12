@@ -19,13 +19,13 @@
             "title": "Scarpette da ometto all'uncinetto con bottoni in legno su entrambi i lati",
             "description": "100% cotone verde e blu con suola bianca fatte a mano. ",
             "material": "100% cotone",
-            "imgsrc": "photo-2.jpg",
+            "imgsrc": "photo-2.webp",
             "size": "9 cm",
             "href": "https://www.etsy.com/it/shop/IlCrochetDili",
             "price": "25,00",
             "available": 1
         },
-        "carousel": ["photo-2-1.jpg", "photo-2-2.jpg", "photo-2-3.jpg"]
+        "carousel": ["photo-2-1.webp", "photo-2-2.webp", "photo-2-3.webp"]
     },
     {
         "id": "",
