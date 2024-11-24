@@ -13,7 +13,7 @@
         </a>
     </li>
     <li>
-        <a href="https://www.pinterest.it/IlCrochetDili/" target="_blank">
+        <a href="https://it.pinterest.com/IlCrochetDily/" target="_blank">
             <img src={pinterest} alt="Pinterest" width="45">
         </a>
     </li>
