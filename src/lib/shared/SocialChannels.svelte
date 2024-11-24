@@ -8,7 +8,7 @@
 
 <ul class="flex items-center gap-2">
     <li>
-        <a href="https://www.instagram.com/ilcrochetdili/" target="_blank">
+        <a href="https://www.instagram.com/ilcrochetdily/" target="_blank">
             <img src={instagram} alt="Instagram" width="45">
         </a>
     </li>
