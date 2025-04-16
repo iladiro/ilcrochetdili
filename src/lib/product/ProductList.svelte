@@ -1,10 +1,10 @@
 <script lang="ts">
-    import products from '../../assets/data/products.json';
     import ProductCard from './ProductCard.svelte';
-
     import { writable } from 'svelte/store';
     import Modal, { bind } from 'svelte-simple-modal';
     import Popup from './Popup.svelte';
+
+    export let productList: Product[];
 
     const modal = writable(null);
 
@@ -17,7 +17,7 @@
 
 <div class="p-4">
     <div class="md:grid grid-cols-5 gap-5 mb-10 items-stretch">
-        {#each products as product, i}
+        {#each productList as product, i}
             <ProductCard product={product} on:openModal={openModal}></ProductCard>
         {/each}
     </div>

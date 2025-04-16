@@ -13,23 +13,35 @@
     </div>    
     <div class="table">
         <div class="md:grid grid-cols-4 gap-4 mb-10">
-            <div class="text-black font-bold">Nome</div>
-            <div class="text-black col-span-3 mb-4 md:mb-0">{product.details?.title}</div>
-            <div class="text-black font-bold">Descrizione</div>
-            <div class="text-black col-span-3 mb-4 md:mb-0">{product.details?.description}</div>
-            <div class="text-black font-bold">Misura</div>
-            <div class="text-black col-span-3 mb-4 md:mb-0">{product.details?.size}</div>
-            <div class="text-black font-bold">Materiale</div>
-            <div class="text-black col-span-3 mb-4 md:mb-0">{product.details?.material}</div>
-            <div class="text-black font-bold">Disponibilità</div>
-            <div class="text-black col-span-3 mb-4 md:mb-0">{product.details?.available}</div>
+            {#if product.details?.title}
+                <div class="text-black font-bold">Nome</div>            
+                <div class="text-black col-span-3 mb-4 md:mb-0">            
+                    {product.details?.title}            
+                </div>            
+            {/if}    
+            {#if product.details?.description}
+                <div class="text-black font-bold">Descrizione</div>
+                <div class="text-black col-span-3 mb-4 md:mb-0">{product.details?.description}</div>
+            {/if}    
+            {#if product.details?.size}
+                <div class="text-black font-bold">Misura</div>
+                <div class="text-black col-span-3 mb-4 md:mb-0">{product.details?.size}</div>
+            {/if}    
+            {#if product.details?.material}
+                <div class="text-black font-bold">Materiale</div>
+                <div class="text-black col-span-3 mb-4 md:mb-0">{product.details?.material}</div>
+            {/if}   
+            {#if product.details?.available}
+                <div class="text-black font-bold">Disponibilità</div>
+                <div class="text-black col-span-3 mb-4 md:mb-0">{product.details?.available}</div>
+            {/if}   
             <!-- <div class="text-black font-bold">Prezzo</div>
             <div class="text-black col-span-3 mb-4 md:mb-0">&euro; {product.details?.price}</div>
             <div class="text-black font-bold">Spedizione</div>
             <div class="text-black col-span-3 mb-4 md:mb-0">&euro; 10 - 12 **</div> -->
         </div>
         <p class="mb-4 text-sm">
-            * Tutte le scarpette sono lavorate a mano. Se non ci fosse più disponibilità della scarpetta che desiderate, potete contattarmi su tutti i canali social che ho indicato nel sito. Grazie mille!
+            * Tutti i lavori presenti possono essere personalizzati
         </p>
         <!-- <p class="mb-4 text-sm">
             ** La spedizione verrà effettuata con il corriere TNT o UPS al costo di 10&euro; sulla penisola e 12&euro; sulle isole

@@ -4,6 +4,7 @@
 	import ProductList from '../lib/product/ProductList.svelte';
 	import TutorialList from '$lib/tutorials/TutorialList.svelte';
     import SocialChannels from '$lib/shared/SocialChannels.svelte';
+    import products from '../assets/data/products.json';
 </script>
 
 <svelte:head>
@@ -34,11 +35,35 @@
     <div class="flex justify-center p-5">
         <img src={arrowDown} alt="" width="100">
     </div>
-    <ProductList></ProductList>
+    <ProductList productList={products.shoes}></ProductList>
 </section>
 <section id="contacts"></section>
 
 <section class="px-5 py-8 bg-white" id="myTutorials">
+    <h2 class="text-[#ce8b8b] mb-5 text-6xl italic text-center">Resina acrilica</h2>
+    <div class="flex justify-center p-5">
+        <img src={arrowDown} alt="" width="100">
+    </div>
+    <ProductList productList={products.resin}></ProductList>
+</section>
+
+<section class="px-5 py-8" id="myTutorials">
+    <h2 class="text-[#ce8b8b] mb-5 text-6xl italic text-center">Bouquet di cera</h2>
+    <div class="flex justify-center p-5">
+        <img src={arrowDown} alt="" width="100">
+    </div>
+    <ProductList productList={products.bouquets}></ProductList>
+</section>
+
+<section class="px-5 py-8 bg-white" id="myTutorials">
+    <h2 class="text-[#ce8b8b] mb-5 text-6xl italic text-center">Cestini uncinetto</h2>
+    <div class="flex justify-center p-5">
+        <img src={arrowDown} alt="" width="100">
+    </div>
+    <ProductList productList={products.baskets}></ProductList>
+</section>
+
+<section class="px-5 py-8" id="myTutorials">
     <h2 class="text-[#ce8b8b] mb-5 text-6xl italic text-center">Tutorials</h2>
     <div class="flex justify-center p-5">
         <img src={arrowDown} alt="" width="100">

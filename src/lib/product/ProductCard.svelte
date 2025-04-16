@@ -13,16 +13,16 @@
 </script>
 
 
-<div class="product__card mb-5 h-full relative flex justify-between flex-col">
-	<div class="my-3">
-		<figure class="text-sm mb-3 font-light border-4 border-[#d0aeb0] bg-white p-2 shadow-sm hover:shadow-md transition-all ease-in-out duration-300">
-			<button on:click={openModal}>
+<div class="product__card gap-2 mb-5 h-full relative flex justify-between flex-col">
+	<div class="h-full min-h-[280px] max-h-[300px] overflow-hidden border-4 border-[#d0aeb0] bg-white p-2 shadow-sm hover:shadow-md transition-all ease-in-out duration-300">
+		<figure class="text-sm font-light h-full">
+			<button on:click={openModal} class="h-full">
 				<img src="/photo/{product.details.imgsrc}" alt={product.details.title}>
 			</button>
-		</figure>
-		<div>
-			<a href={product.details.href} class="no-underline">{product.details.title}</a>
-		</div>
+		</figure>		
+	</div>
+	<div>
+		<a href={product.details.href} class="no-underline">{product.details.title}</a>
 	</div>
 	<div class="flex items-center justify-between gap-2">
 		<div class="flex gap-2">

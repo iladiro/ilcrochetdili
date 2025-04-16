@@ -18,7 +18,7 @@
         <IoIosArrowBack />
     </button>
     {#each photoList as photo, i}
-    <figure><img src="/photo/{photo}" alt="Scare uncinetto"></figure>
+    <figure class="border-4 border-[#d0aeb0] bg-white p-2 shadow-sm  justify-center"><img src="/photo/{photo}" alt="Scare uncinetto"></figure>
     {/each}
     <button let:showNextPage slot="next" on:click={showNextPage} class="custom-arrow custom-arrow-next w-5 ml-5 text-[#a9a9a9]">
         <IoIosArrowForward />
