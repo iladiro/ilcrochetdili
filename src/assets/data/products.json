@@ -8,10 +8,10 @@
             "imgsrc": "photo-24-1.jpg",
             "size": "10 cm",
             "href": "https://www.etsy.com/it/shop/IlCrochetDili",
-            "price": "25,00",
+            "price": "35,00",
             "available": 1
         },
-        "carousel": ["photo-24-1.jpg"]
+        "carousel": ["photo-24-2.jpg", "photo-24-3.jpg"]
     },
     {
         "id": "",
