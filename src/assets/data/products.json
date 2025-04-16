@@ -2,6 +2,20 @@
     {
         "id": "",
         "details": {
+            "title": "Scarpe da ginnastica modello adidas d'orate",
+            "description": "Super chick!!!!!!!!!!!",
+            "material": "100% cotone",
+            "imgsrc": "photo-24-1.jpg",
+            "size": "10 cm",
+            "href": "https://www.etsy.com/it/shop/IlCrochetDili",
+            "price": "25,00",
+            "available": 1
+        },
+        "carousel": ["photo-24-1.jpg"]
+    },
+    {
+        "id": "",
+        "details": {
             "title": "Scarpe da ginnastica modello adidas rosa",
             "description": "Super tenere!!!!!!!!!!!",
             "material": "100% cotone",

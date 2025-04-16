@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-	<title>Il Crochet Di Ili</title>
+	<title>Il Crochet Di Ily</title>
 </svelte:head>
 <section class="cover relative">
     <h1 class="cover__title text-white text-4xl absolute top-[50%] left-[50%] z-20 translate-x-[-50%] translate-y-[-50%]">Welcome to my lovely world</h1>
