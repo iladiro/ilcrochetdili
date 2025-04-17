@@ -14,8 +14,8 @@
 
 
 <div class="product__card gap-2 mb-5 h-full relative flex justify-between flex-col">
-	<div class="h-full min-h-[280px] max-h-[300px] overflow-hidden border-4 border-[#d0aeb0] bg-white p-2 shadow-sm hover:shadow-md transition-all ease-in-out duration-300">
-		<figure class="text-sm font-light h-full">
+	<div class="h-full min-h-[280px] max-h-[300px] border-4 border-[#d0aeb0] bg-white p-2 shadow-sm hover:shadow-md transition-all ease-in-out duration-300">
+		<figure class="text-sm font-light h-full overflow-hidden">
 			<button on:click={openModal} class="h-full">
 				<img src="/photo/{product.details.imgsrc}" alt={product.details.title}>
 			</button>
