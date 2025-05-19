@@ -8,5 +8,15 @@
             "imgsrc": "tutorial-pouf.jpg",
             "size": "43cm x 32cm circa"
         }
+    },
+    {
+        "id": "",
+        "details": {
+            "title": "Porcino",
+            "pdf": "porcino.pdf",
+            "material": "cordino di cotone per macramè",
+            "imgsrc": "tutorial-porcino.jpg",
+            "size": "22cm x 22cm circa"
+        }
     }
 ]
