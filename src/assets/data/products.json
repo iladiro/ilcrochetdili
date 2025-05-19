@@ -513,6 +513,20 @@
         {
             "id": "",
             "details": {
+                "title": "Porcino reale",
+                "description": "Meraviglioso contenitore a forma di Boletus edulis",
+                "material": "Cotone",
+                "imgsrc": "basket-5.jpeg",
+                "size": null,
+                "href": null,
+                "price": "25,00",
+                "available": 1
+            },
+            "carousel": ["basket-5.jpeg"]
+        },
+        {
+            "id": "",
+            "details": {
                 "title": "Ghianda all'uncinetto",
                 "description": "Meraviglioso contenitore a forma di ghianda",
                 "material": "Cotone",
