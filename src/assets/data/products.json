@@ -513,6 +513,20 @@
         {
             "id": "",
             "details": {
+                "title": "Apple chic",
+                "description": "Contenitore super elegante, colori tenui per decorare la tua casa",
+                "material": "Cotone",
+                "imgsrc": "basket-6.jpeg",
+                "size": null,
+                "href": null,
+                "price": "25,00",
+                "available": 1
+            },
+            "carousel": ["basket-6.jpeg"]
+        },
+        {
+            "id": "",
+            "details": {
                 "title": "Porcino reale",
                 "description": "Meraviglioso contenitore a forma di Boletus edulis",
                 "material": "Cotone",
